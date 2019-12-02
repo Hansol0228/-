@@ -1,0 +1,141 @@
+@font-face
+{
+font-family: DungGeunMo;
+src:url('DungGeunMo.eot');
+src:url('DungGeunMo.eot?#iefix') format('embedded-opentype'),
+url('DungGeunMo.woff') format('woff'),
+url('DungGeunMo.ttf') format('truetype'),
+url('DungGeunMo.svg') format('svg');
+}
+body/*바디*/
+{
+margin:0px:
+width:100%;
+font-family:DungGeunMo;
+}
+.frame/*로고포함 5개 묶기*/
+{
+overflow:hidden;
+}
+.logo, .button1, .button2, .button3, .button4/*로고랑 mis제외한 버튼*/
+{
+margin:1%;
+width:14.3%;
+text-align:center;
+float:left;
+color:white;
+font-weight:bold;
+height:100px;
+vertical-align:middle;
+font-size:2em;
+}
+.button1/*밑으로 쭉 메뉴 그림*/
+{
+background-image:url(menu_red.png);
+background-size:100% 100%;
+}
+.button2
+{
+background-image:url(menu_juhwang.png);
+background-size:100% 100%;
+}
+.button3
+{
+background-image:url(menu_green.png);
+background-size:100% 100%;
+}
+.button4
+{
+background-image:url(menu_blue.png);
+background-size:100% 100%;
+}
+.logo/*로고 오른쪽에 마진 좀만 더줌*/
+{
+margin-left:2%;
+background-image:url(NGP_Logo.png);
+background-size:100% 100%;
+}
+.button5/*mis 2개 묶은거, 제일 오른쪽*/
+{
+margin-top:1%;
+margin-left:1%;
+margin-right:2%;
+float:left;
+width:14.3%;
+height:100px;
+}
+.trend/*MIS Trend*/
+{
+width:100%;
+background-image:url(menu_bora1.png);
+background-size:100% 100%;
+color:white;
+font-weight:bold;
+text-align:center;
+font-size:2em;
+background-size:100% 100%;
+height:50px;
+}
+.study/*MIS Case Study*/
+{
+width:100%;
+background-image:url(menu_bora2.png);
+background-size:100% 100%;
+color:white;
+font-weight:bold;
+text-align:center;
+font-size:2em;
+background-size:100% 100%;
+height:50px;
+}
+a/*기본 링크 밑줄 없애기*/
+{
+text-decoration:none;
+}
+a.route:link/*여기서부터 NGP > ~~ > ~~할때 쓰는 링크 설정*/
+{
+color:black;
+text-decoration:none;
+}
+a.route:visited
+{
+color:black;
+text-decoration:none;
+}
+a.route:hover/*얘네 밑줄 왜 적용이 안되지*/
+{
+color:black;
+text-decoration:underline;
+}
+a.route:active
+{
+color:black;
+text-decoration:underline;
+}
+.logo p, .button1 p, .button2 p, .button3 p, .button4 p/*p 속성 초기화&재설정*/
+{
+margin:0px;
+padding:0px;
+line-height:100px;
+}
+.trend p, .study p/*오른쪽 p 속성 초기화&재설정*/
+{
+margin:0px;
+padding:0px;
+line-height:50px;
+}
+.up/*위로가는 버튼*/
+{
+position:fixed;
+bottom:5%;
+right:2%;
+width:50px;
+height:auto;
+}
+.content/*내용 여백*/
+{
+margin:3%;
+margin-top:20px;
+font-size:1.2em;
+line-height:2em;
+}
