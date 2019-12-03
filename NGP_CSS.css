@@ -3,21 +3,22 @@
 font-family: DungGeunMo;
 src:url('DungGeunMo.eot');
 src:url('DungGeunMo.eot?#iefix') format('embedded-opentype'),
+url('DungGeunMo.woff2') format('woff2'),
 url('DungGeunMo.woff') format('woff'),
 url('DungGeunMo.ttf') format('truetype'),
 url('DungGeunMo.svg') format('svg');
 }
-body/*¹Ùµğ*/
+body/*ë°”ë””*/
 {
 margin:0px:
 width:100%;
 font-family:DungGeunMo;
 }
-.frame/*·Î°íÆ÷ÇÔ 5°³ ¹­±â*/
+.frame/*ë¡œê³ í¬í•¨ 5ê°œ ë¬¶ê¸°*/
 {
 overflow:hidden;
 }
-.logo, .button1, .button2, .button3, .button4/*·Î°í¶û misÁ¦¿ÜÇÑ ¹öÆ°*/
+.logo, .button1, .button2, .button3, .button4/*ë¡œê³ ë‘ misì œì™¸í•œ ë²„íŠ¼*/
 {
 margin:1%;
 width:14.3%;
@@ -29,7 +30,7 @@ height:100px;
 vertical-align:middle;
 font-size:2em;
 }
-.button1/*¹ØÀ¸·Î Âß ¸Ş´º ±×¸²*/
+.button1/*ë°‘ìœ¼ë¡œ ì­‰ ë©”ë‰´ ê·¸ë¦¼*/
 {
 background-image:url(menu_red.png);
 background-size:100% 100%;
@@ -49,13 +50,13 @@ background-size:100% 100%;
 background-image:url(menu_blue.png);
 background-size:100% 100%;
 }
-.logo/*·Î°í ¿À¸¥ÂÊ¿¡ ¸¶Áø Á»¸¸ ´õÁÜ*/
+.logo/*ë¡œê³  ì˜¤ë¥¸ìª½ì— ë§ˆì§„ ì¢€ë§Œ ë”ì¤Œ*/
 {
 margin-left:2%;
 background-image:url(NGP_Logo.png);
 background-size:100% 100%;
 }
-.button5/*mis 2°³ ¹­Àº°Å, Á¦ÀÏ ¿À¸¥ÂÊ*/
+.button5/*mis 2ê°œ ë¬¶ì€ê±°, ì œì¼ ì˜¤ë¥¸ìª½*/
 {
 margin-top:1%;
 margin-left:1%;
@@ -88,11 +89,11 @@ font-size:2em;
 background-size:100% 100%;
 height:50px;
 }
-a/*±âº» ¸µÅ© ¹ØÁÙ ¾ø¾Ö±â*/
+a/*ê¸°ë³¸ ë§í¬ ë°‘ì¤„ ì—†ì• ê¸°*/
 {
 text-decoration:none;
 }
-a.route:link/*¿©±â¼­ºÎÅÍ NGP > ~~ > ~~ÇÒ¶§ ¾²´Â ¸µÅ© ¼³Á¤*/
+a.route:link/*ì—¬ê¸°ì„œë¶€í„° NGP > ~~ > ~~í• ë•Œ ì“°ëŠ” ë§í¬ ì„¤ì •*/
 {
 color:black;
 text-decoration:none;
@@ -102,7 +103,7 @@ a.route:visited
 color:black;
 text-decoration:none;
 }
-a.route:hover/*¾ê³× ¹ØÁÙ ¿Ö Àû¿ëÀÌ ¾ÈµÇÁö*/
+a.route:hover/*ì–˜ë„¤ ë°‘ì¤„ ì™œ ì ìš©ì´ ì•ˆë˜ì§€*/
 {
 color:black;
 text-decoration:underline;
@@ -112,19 +113,19 @@ a.route:active
 color:black;
 text-decoration:underline;
 }
-.logo p, .button1 p, .button2 p, .button3 p, .button4 p/*p ¼Ó¼º ÃÊ±âÈ­&Àç¼³Á¤*/
+.logo p, .button1 p, .button2 p, .button3 p, .button4 p/*p ì†ì„± ì´ˆê¸°í™”&ì¬ì„¤ì •*/
 {
 margin:0px;
 padding:0px;
 line-height:100px;
 }
-.trend p, .study p/*¿À¸¥ÂÊ p ¼Ó¼º ÃÊ±âÈ­&Àç¼³Á¤*/
+.trend p, .study p/*ì˜¤ë¥¸ìª½ p ì†ì„± ì´ˆê¸°í™”&ì¬ì„¤ì •*/
 {
 margin:0px;
 padding:0px;
 line-height:50px;
 }
-.up/*À§·Î°¡´Â ¹öÆ°*/
+.up/*ìœ„ë¡œê°€ëŠ” ë²„íŠ¼*/
 {
 position:fixed;
 bottom:5%;
@@ -132,7 +133,7 @@ right:2%;
 width:50px;
 height:auto;
 }
-.content/*³»¿ë ¿©¹é*/
+.content/*ë‚´ìš© ì—¬ë°±*/
 {
 margin:3%;
 margin-top:20px;
